@@ -110,6 +110,7 @@
     margin: 10% 0;
     border-radius: var(--button-border-r);
     background-color: var(--button-color-pink);
+    color: var(--font-color);
 }
 
 @media (min-width: 768px) {
@@ -458,6 +459,7 @@
 .call-to-action button {
     border-radius: 20px;
     width: 100px;
+    color: var(--font-color);
 }
 
 .previous-btn, .next-btn {
