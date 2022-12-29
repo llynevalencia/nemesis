@@ -1,0 +1,98 @@
+:root {
+    --theme-color: #ffffff;
+    --font-color: #0b0b0b;
+    --footer-color: #5E2222;
+
+    --primary-color: #E8BFBF;
+    --secondary-color: #FFF2D1;
+    --color-grey: #e8e8e8;
+    --color-light-gray: #D9D9D9;
+
+    font-size: 20px;
+
+    --font-size-large: 2rem;
+    --font-size-medium: 1.5rem;
+    --font-size-small: 1rem;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --button-padding: 1% 16%;
+    --button-padding-1200: 1% 8%;
+    --button-border-r: 5px;
+    --button-color-pink: #E8BFBF;
+    --button-color-yellow: #F9BF2C;
+}
+
+body {
+    font-family:'Nunito Sans', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--font-color);
+}
+
+h1 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+}
+
+h3 {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+}
+
+p {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+}
+
+/* CSS Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+ul {
+    list-style: none;
+}
